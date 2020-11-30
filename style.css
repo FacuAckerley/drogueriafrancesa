@@ -1,0 +1,171 @@
+
+
+.fa-whatsapp {
+    width: 500px;
+}
+
+#logo {
+    max-width: 200px;
+}
+#alfa-centauro-logo {
+    max-width: 100px;
+}
+#first-row {
+    background: linear-gradient(90deg, #003366 0, #004a98 25%,#00c1cb );
+    background-color: #004a98;
+    max-height: 26px;
+
+
+}
+#container__first-row {
+    max-height: 50px;
+}
+
+
+#horarios-btn, #feriados-btn, #enviar-btn {
+    background-color: #f4592f;
+    border: #f4592f;
+    color: white;
+    opacity: .7;
+
+}
+#enviar-btn {
+    opacity: 1 !important;
+}
+
+#horarios-btn:hover, #feriados-btn:hover, #enviar-btn:hover {
+    background-color: #9a3216;
+    border:#9a3216;
+    color: white;
+}
+#number2 p, #number1 p {
+    color: white;
+ }
+
+#number{
+    color: white;
+    padding-top: 6px;
+}
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+}
+#sistema-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.navbar, .dropdown-menu {
+    background-color: #00c1cb !important;
+   
+}
+.dropdown-menu a:hover {
+    background-color: #00c1cb !important;
+}
+.navbar li a {
+    color: white !important;
+}
+.navbar li a:hover {
+    color: #004a98 !important;
+}
+.navbar-brand {
+    color: white !important;
+}
+
+
+
+#carousel {
+    position: relative;
+ } 
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(87, 90, 86, 0.5);
+    color: white;
+  
+
+}
+
+
+/** footer **/
+#footer__container {
+    background: linear-gradient(90deg, #003366 0, #004a98 25%,#00c1cb );
+    min-height: 100%;
+}
+#footer__row p {
+    color:white;
+}
+#footer__row i {
+    font-size: 200%;
+}
+
+/** SERVICIO **/
+#col-central{
+    background-color: rgba(206, 238, 238, 0.452);
+    
+}
+
+#col-color {
+    background-color: rgba(206, 238, 238, 0.452);
+}
+#servicio__row h1, #servicio__row h2, #servicio__row h3, #h1-contacto, #h1-novedades {
+    color:  #004a98;
+}
+.card{
+    height: 540px;
+}
+
+
+.horarios-list{
+    line-height: 2em;
+}
+.modal-content{
+    opacity: .8;
+    background-color:#00c1cb ;
+    color: white;
+}
+
+#quienes__section h2, #quienes__section h1, #quienes__section p {
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    
+}
+#servicio__section h2, #servicio__section h1, #servicio__section p {
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    
+}
+#contacto__section h2, #contacto__section h1, #contacto__section p, .form-container {
+    animation-name: aparecer;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    
+}
+
+#map {
+	height: 300px;
+    width: 80%;
+    margin: auto;
+}
+#telefono {
+    color: #f4592f;
+}
+
+
+/****************   ANIMACIÓN DE INICIO  ********************
+    *************                   ********************/
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }

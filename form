@@ -1,0 +1,138 @@
+                <h1 class="mb-4">Contacto</h1>
+                <form>
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label for="formGroupExampleInput">Nombre o razón social</label>
+                      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                    </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Sólo utilizaremos tu mail para contactarnos con vos</small>
+                  </div>
+                  <div class="form-group">
+                   <style media="screen">
+                          input::-webkit-inner-spin-button,
+                          input::-webkit-outer-spin-button{
+                            -webkit-appearance:none;
+                          }
+                          input[type="number"]{
+                            -moz-appearance:textfield;
+                          }
+                    </style>
+                    <label for="formGroupExampleInput">Número de teléfono</label>
+                    <input type="number" class="form-control" placeholder="Recordá colocar el código de área" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Asunto</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                 
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+
+
+
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur temporibus maiores debitis inventore cupiditate, odit tempore veritatis, quibusdam deleniti quas id, 
+                facilis tempora atque illo ea numquam aut rem aliquid.
+                 <div id="map"></div>
+
+<iframe title="google maps" arial-label="google-maps" data-src="" scrolling"no" allowfullscreen"" src="https://static.parastorage.com/services/editor-elements/dist/b4f9c49a00780b3a8097e7114b529be7.html?defaultLocation=0&showZoom=true&showStreetView=true&showMapType=true&language=es&id=dataItem-j83099vc&googleMapsScriptUrl=https%3A%2F%2Fstatic.parastorage.com%2Fservices%2Feditor-elements%2Fdist%2Fgoogle-map.min.js" width="100%" height="100%" frameborder="0">
+
+
+  
+
+
+
+        <section id="novedades" class="">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center text uppercase"id="col-central" >
+                <h1 class="mb-4" id="h1-novedades">Novedades</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-md-4" id="col-central">
+                <div class="card" style="width: 18rem;">
+                  <img src="IMG/otrasimg/playboy.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Nuevos profilácticos</h5>
+                    <span class="badge badge-info mb-2">Nuevo</span>
+                    <span class="badge badge-warning">Producto</span>
+                    <p class="card-text">Ya se encuentran en nuestro stock los nuevos profilácticos de la línea #PlayBoy en su versión clásica, ultrafina, texturada, con tachas y exrta lubricado.</p>
+                   <!-- <a href="#" class="btn btn-primary ">Leer más</a> -->
+                  </div>
+                </div>
+    
+    
+              </div>
+              <div class="col col-md-4" id="col-central">
+                <div class="card" style="width: 18rem;">
+                  <img src="IMG/otrasimg/evacopa-talle-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Evacopa</h5>
+                    <span class="badge badge-info mb-2">Nuevo</span>
+                    <span class="badge badge-warning">Producto</span> 
+                    <p class="card-text">Te contamos todo lo que necesitas saber sobre este producto: Guía de talles, su uso y más.</p>
+                    <button type="button" class="btn btn-outline-info">Leer más</button>
+                  </div>
+                </div>
+    
+    
+              </div>
+              <div class="col col-md-4" id="col-central">
+                <div class="card" style="width: 18rem;">
+                  <img src="imagenes/imagen3.JPG" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-0">Novedad #3</h5>
+                    <span class="badge badge-info mb-2">Cóctel</span>
+                    <span class="badge badge-warning">Ron</span>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary ">Leer más</a>
+                  </div>
+                </div>
+    
+    
+              </div>
+            </div>
+          </div>
+        </section>
+       
+
+
+       --------------------------------------------- BOTONERA CAROUSEL -----------------------------------
+        <div class="row">
+                      
+                      <div class="col-9" id="col-button-horario">
+                        <button type="button" class="btn btn-outline-danger ml-4 mt-2 d-none d-md-block" id="horarios-btn" data-toggle="modal" data-target="#modal-horarios">Click aquí para ver horarios</button>
+                      </div>
+                      <button type="button" class="btn btn-outline-danger ml-4 mt-2 d-sm-block d-md-none" id="horarios-btn" data-toggle="modal" data-target="#modal-horarios">Horarios</button>
+                      </div>
+                      <div class="col-3">
+                        <button type="button" class="btn btn-warning ml-2 mt-2 " id="feriados-btn" data-toggle="modal" data-target="#modal-feriados">Feriados</button>
+                      </div>
+                      
+                      <div class="col-12">
+                        <div class="row">
+                          <div class="col-2"></div>
+                          
+                          <div class="col-10" id="col-button-sistema">
+                            <button type="button" class="sistema-btn btn btn-primary ml-5 mt-2" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank">Sistema de pedidos</a></button>
+                          </div>
+                          
+
+                        </div>
+                      </div>
+                     
+                    </div>
+
+                  </div>

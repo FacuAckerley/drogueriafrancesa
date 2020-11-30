@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <!-- MI ESTILO -->
+    <link rel="stylesheet" href="style.css">
+     <!-- FONTAWESOME (ICONOS) -->
+    <script src="https://kit.fontawesome.com/65fa410ded.js" crossorigin="anonymous"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0GRYtpKl2X0zMewwgGuvjF5z8tfq2ynQ&callback=initMap&libraries=&v=weekly"
+      defer></script> 
+    <title>Droguería Francesa</title>
+    <link rel="shortcut icon" href="IMG/Francesa.ico" />
+  </head>
+
+
+
+
+  <body>
+    <h1></h1>
+    <!--FIRST ROW -->
+    <div class="container-fluid text-center" id="container__first-row">
+        <div class="row" id="first-row">
+            <div class="col-6 col-lg-2 d-none" id="horarios"> <button type="button" class="btn btn-warning mt-1 mb-1 d-block " id="horarios-btn">Click para ver horarios</button></div>
+            <div class="col-6 col-lg-2 d-none " id="feriados"> <button type="button" class="btn btn-warning mt-1 mb-1 d-block" id="feriados-btn">Feriados</button></div>
+            <div class="col-0 col-lg-2"></div>
+            <div class="col-0 col-lg-2"></div>
+            <div class="col-6 col-lg-2" id="number1"><p>(+54) 11-3640-5941</p></div>
+            <div class="col-6 col-lg-2" id="number2"><p>(+54) 11-3640-5941</p> </div>
+        </div>
+    </div>
+  
+
+    <!-- NAV-->
+  
+    
+<!-- Navbar -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+    <a class="navbar-brand" href="#"><img src="IMG/imagotipo-horizontal4-BLANCO.png" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicio.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quienes.html">Quiénes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="novedades.html">Novedades</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link mr-4" href="#">Contacto</a>
+        </li>
+
+        <!--<li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      <button type="button" class="btn btn-primary ml-0" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank">SISTEMA DE PEDIDOS</a></button>
+    </div>
+  </nav>
+
+
+    <!--CAROUSEL-->
+    <main id="main">
+      <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="IMG/banner.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="overlay">
+            <div class="container mr-0 mt-4" id="overlay-principal">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-right"> <h1>Bienvenido </h1>
+                  <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident soluta dolore ut accusamus quod ullam 
+                      tenetur praesentium reprehenderit odio natus sequi, architecto ab, perspiciatis commodi, exercitationem veniam ducimus maxime obcaecati. 
+                  </p>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-md-12   text-right">
+                  <button type="button" class="btn btn-outline-danger ml-4 mt-2" id="horarios-btn" data-toggle="modal" data-target="#modal-horarios">Click aquí para ver horarios</button>
+                  <button type="button" class="btn btn-warning ml-2 mt-2 " id="feriados-btn" data-toggle="modal" data-target="#modal-feriados">Feriados</button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-10 offset-2  text-right">
+                  <button type="button" class="sistema-btn btn btn-primary ml-5 mt-2" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank">Sistema de pedidos</a></button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        
+
+    </main>
+
+        <!--CONTACTO -->
+<section id="contacto__section">
+  <div class="container-fluid" id="contacto__container">
+  <div class="row " id="contacto__row">
+    <div class="col-sm-0 col-lg-1 col-md-1"></div>            <!-- COL1-->
+    <div class="col-sm-12 col-lg-5 col-md-5" id="col-central"><!-- COL2-->
+      <h1 class="mb-0 mt-4" id="h1-contacto">Contacto</h1>
+      <p class="mb-4">Dejanos tus datos y a la brevedad nos estaremos comunicando con vos</p>
+      <div class="form-container">
+        <form>
+          
+          <div class="form-group">
+            <label for="formGroupExampleInput">Nombre o razón social*</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">Sólo utilizaremos tu mail para contactarnos con vos</small>
+          </div>
+          <div class="form-group">
+            <style media="screen">
+                    input::-webkit-inner-spin-button,
+                    input::-webkit-outer-spin-button{
+                      -webkit-appearance:none;
+                    }
+                    input[type="number"]{
+                      -moz-appearance:textfield;
+                    }
+            </style>
+            <label for="formGroupExampleInput">Número de teléfono*</label>
+            <input type="number" class="form-control" placeholder="" required>
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Asunto</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <small id="emailHelp" class="form-text text-muted mb-4">Los campos marcados con * son obligatorios</small>
+          </div>
+        
+          <div class="campos-obligatorios">
+            
+            
+          </div>
+          <button type="submit" class="btn btn-primary mb-4 btn-block" id="enviar-btn">ENVIAR</button>
+        </form>
+      </div> 
+    </div>
+    <div class="col-sm-12 col-lg-5 col-md-5" id="col-central"><!-- COL3-->
+      <p class="text-center mb-0 mt-4"> Nos encontramos en Av. Rigolleau 2750,Berazategui, Buenos Aires</p>
+      <h2 class="text-center mt-0">También podes comunicarte <br> con nosotros al<br><b id="telefono">(011) 4216-9715/9721</b></h2>
+      <div id="map" class="mt-4 mb-4"></div>
+     
+                   
+    </div>
+    <div class="col-sm-0 col-lg-1 col-md-1"></div> <!-- COL4--> 
+
+                
+
+        
+    </div>
+</section>
+
+    
+    <!--FOOTER -->
+    <section>
+      <div class="container-fluid" id="footer__container">
+        <div class="row text-center" id="footer__row">
+          <div class="offset-3 col-6 offset-3">
+            <p>
+              <i class="fab fa-facebook-square mt-3 mb-2"></i>
+              <i class="fab fa-instagram mt-3 mb-2"></i><br>
+              <img src="img/Alfa Centauro-BLANCO.png" alt="" class="mt-2" id="alfa-centauro-logo"><br>
+              Alfa Centauro S.R.L. <br>
+              Email: admin@alfacentauro.com.ar <br>
+              Avenida Rigolleau 2750 - Berazategui - Buenos Aires
+
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--MODAL HORARIOS -->
+
+<div class="modal fade " id="modal-horarios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Horarios</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <p class="text-center"> Estos son los horarios en los que deberás hacer tu pedido 
+          dependiendo del momento en que lo desees recibir.</p>
+        <h4 class="horarios-list"><b>Entrega por la mañana:</b> hasta las 7:00hs del mismo día.<br> 
+          <b>Entrega por la tarde:</b> hasta las 14:00hs del mismo día.<br>
+          <b>Entrega de Sábado por la tarde:</b> hasta las 12:30hs.</h4>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendido</button>
+        <button type="button" class="btn btn-primary" id="sistema-btn"><a href="http://190.210.180.13/Account/Login" target="_blank">Ir a sistema de pedidos</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--MODAL FERIADOS -->
+<div class="modal fade " id="modal-feriados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Feriados</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <p class="text-center"> Cuando se aproxime un feriado aquí tendrás la información necesaria sobre los horarios especiales</p>
+        <h4 class="horarios-list"></h4>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Entendido</button>
+        <button type="button" class="btn btn-primary" id="sistema-btn"><a href="http://190.210.180.13/Account/Login" target="_blank">Ir a sistema de pedidos</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!--  GOOGLE MAPS API-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0GRYtpKl2X0zMewwgGuvjF5z8tfq2ynQ=iniciarMap"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- JS PROPIO -->
+    <script src="app.js"></script>
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+     -->
+    <script src="app.js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0GRYtpKl2X0zMewwgGuvjF5z8tfq2ynQ&callback=initMap">
+</script>
+  </body>
+</html>
