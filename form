@@ -136,3 +136,53 @@
                     </div>
 
                   </div>
+
+
+
+
+
+
+
+
+
+
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+    
+    <a class="navbar-brand" href="#"><img src="IMG/imagotipo-horizontal4-BLANCO.png" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <button type="button" class="btn btn-primary ml-0 mt-3 mb-2 d-sm-block d-md-none" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank"><img src="IMG/icons/carrito.ico" id="carrito-btn">SISTEMA DE PEDIDOS</a></button>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicio.html">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quienes.html">Quiénes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="novedades.html">Novedades</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="Contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item d-sm-block d-md-none redes-nav">
+          <i class="fab fa-facebook-square mt-3 mb-2"></i>
+          <i class="fab fa-instagram mt-3 mb-2 mr-2 ml-2"></i>
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-whatsapp mt-1 mr-2"></i></a>
+        </li>
+      
+        <!--<li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      <button type="button" class="btn btn-primary ml-0 d-none d-md-block" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank"><img src="IMG/icons/carrito.ico" id="carrito-btn">SISTEMA DE PEDIDOS</a></button>
+    </div>
+  </nav>

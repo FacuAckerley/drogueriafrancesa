@@ -16,18 +16,20 @@
   </head>
   <body>
     <h1></h1>
-    <!--FIRST ROW -->
-    <div class="container-fluid text-center" id="container__first-row">
-        <div class="row" id="first-row">
-            <div class="col-6 col-lg-2 d-none" id="horarios"> <button type="button" class="btn btn-warning mt-1 mb-1 d-block " id="horarios-btn">Click para ver horarios</button></div>
-            <div class="col-6 col-lg-2 d-none " id="feriados"> <button type="button" class="btn btn-warning mt-1 mb-1 d-block" id="feriados-btn">Feriados</button></div>
-            <div class="col-0 col-lg-2"></div>
-            <div class="col-0 col-lg-2"></div>
-            <div class="col-6 col-lg-2" id="number1"><p>(+54) 11-3640-5941</p></div>
-            <div class="col-6 col-lg-2" id="number2"><p>(+54) 11-3640-5941</p> </div>
+
+<!--FIRST ROW -->
+    <div class="container-fluid fixed-top" id="container__first-row">
+      <div class="row" id="first-row">
+        <div class="small col-4 mt-1 mb-1 text-left"><i class="fas fa-phone-alt"></i>&nbsp<a class="telefono" href="tel:01142169715">(011) 4216 - 9715/ 9721 </a>  &nbsp &nbsp &nbsp &nbsp <i class=" whatsapp-first-row fab fa-whatsapp mt-1 mr-2"></i>
+          <a href="https://api.whatsapp.com/send/?phone= 541136405941&text&app_absent=0" target="_blank">(+54) 11-3640-5941</a></div>
+        <div class="col-4 mt-1 mb-1"></div>
+        <div class="col-4 mt-1 mb-1 text-right">
+          <a href="https://www.facebook.com/drogueria.francesa" target="_blank"><i class="fab fa-facebook-square mt-0 mb-4 mr-1" id="first-row-redes"></i></a>
+          <a href="https://www.instagram.com/drogueriafrancesa/?hl=es-la"target="_blank"><i class="fab fa-instagram mt-0 mb-4" id="first-row-redes"></i></a>
         </div>
-    </div>
-  
+
+      </div>
+  </div>
 
     <!-- NAV-->
   
@@ -35,37 +37,44 @@
 <!-- Navbar -->
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
-    <a class="navbar-brand" href="#"><img src="IMG/imagotipo-horizontal4-BLANCO.png" id="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+  <a class="navbar-brand" href="#"><img src="IMG/imagotipo-horizontal4-BLANCO.png" id="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#servicio-ini">Servicios</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="quienes.html">Quiénes Somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="novedades.html">Novedades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-4" href="Contacto.html">Contacto</a>
-        </li>
-
-        <!--<li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li> -->
-      </ul>
-      <button type="button" class="btn btn-primary ml-0" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank">SISTEMA DE PEDIDOS</a></button>
-    </div>
-  </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <button type="button" class="btn btn-primary ml-0 mt-3 mb-2 d-sm-block d-md-none" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank"><img src="IMG/icons/carrito.ico" id="carrito-btn">SISTEMA DE PEDIDOS</a></button>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link active" href="#">Servicios<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quienes.html">Quiénes Somos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="novedades.html">Novedades</a>
+      </li>
+      <li class="nav-item mr-4">
+        <a class="nav-link" href="Contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item d-sm-block d-md-none redes-nav">
+        <a href="https://www.facebook.com/drogueria.francesa" target="_blank"><i class="fab fa-facebook-square mt-3 mb-2"></i></a>
+          <a href="https://www.instagram.com/drogueriafrancesa/?hl=es-la" target="_blank"><i class="fab fa-instagram mt-3 mb-2 mr-2 ml-2"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone= 541136405941&text&app_absent=0" target="_blank"><i class="fab fa-whatsapp mt-1 mr-2"></i></a>
+      </li>
+      <!--<li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li> -->
+    </ul>
+    <button type="button" class="btn btn-primary ml-0 d-none d-md-block" id="sistema-btn"> <a href="http://190.210.180.13/Account/Login" target="_blank"><img src="IMG/icons/carrito.ico" id="carrito-btn">SISTEMA DE PEDIDOS</a></button>
+  </div>
+</nav>
 
 
     <!--CAROUSEL-->
@@ -149,8 +158,6 @@
         <div class="row text-center" id="footer__row">
           <div class="offset-3 col-6 offset-3">
             <p>
-              <i class="fab fa-facebook-square mt-3 mb-2"></i>
-              <i class="fab fa-instagram mt-3 mb-2"></i><br>
               <img src="img/Alfa Centauro-BLANCO.png" alt="" class="mt-2" id="alfa-centauro-logo"><br>
               Alfa Centauro S.R.L. <br>
               Email: admin@alfacentauro.com.ar <br>

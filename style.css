@@ -1,24 +1,41 @@
 
 
-.fa-whatsapp {
-    width: 500px;
+.relleno {
+    background: linear-gradient(90deg, #003366 0, #004a98 25%,#00c1cb );
+    height: 24.15vh;
+    border-bottom: 1px solid white;
+    
 }
 
 #logo {
     max-width: 200px;
 }
 #alfa-centauro-logo {
-    max-width: 100px;
+    max-width: 150px;
 }
 #first-row {
     background: linear-gradient(90deg, #003366 0, #004a98 25%,#00c1cb );
     background-color: #004a98;
     max-height: 26px;
+    color: white;
+    font-family: 'Open Sans',sans-serif !important;
 
 
 }
+#first-row a{
+    color: white;
+    text-decoration: none;
+}
 #container__first-row {
     max-height: 50px;
+}
+#first-row-redes {
+    width: 20px;
+    font-size: 130%;
+}
+.fa-phone-alt .whatsapp-first-row {
+    color: white;
+    margin-right: 3px;
 }
 
 
@@ -56,7 +73,7 @@
 }
 
 
-
+/**
 .navbar, .dropdown-menu {
     background-color: #00c1cb !important;
    
@@ -64,6 +81,7 @@
 .dropdown-menu a:hover {
     background-color: #00c1cb !important;
 }
+
 .navbar li a {
     color: white !important;
 }
@@ -73,11 +91,27 @@
 .navbar-brand {
     color: white !important;
 }
+**/
 
+.redes-nav i {
+    font-size: 200%;
+    color: white;
+}
+#carrito-btn {
+    width: 15px;
+    margin-bottom: 3.2%;
+    margin-right: 5px;
+}
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #003366;
+}
 
 
 #carousel {
     position: relative;
+    margin-top: 35px;
  } 
 #carousel .overlay {
     position: absolute;
@@ -87,9 +121,11 @@
     left: 0;
     background-color: rgba(87, 90, 86, 0.5);
     color: white;
-  
-
 }
+/*#overlay-principal h1 {
+    margin-top: 30px;
+}
+*/
 
 
 /** footer **/
@@ -102,6 +138,7 @@
 }
 #footer__row i {
     font-size: 200%;
+    color: white;
 }
 
 /** SERVICIO **/
@@ -149,6 +186,8 @@
     
 }
 
+/*** CONTACTO **/
+
 #map {
 	height: 300px;
     width: 80%;
@@ -169,3 +208,13 @@
             opacity: 1;
         }
     }
+
+@media (min-width: 1000px) {
+ .navbar {
+     margin-top: 26px ;
+ }
+ #overlay-principal h1 {
+    margin-top: 80px;
+}
+
+}
